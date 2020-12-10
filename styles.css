@@ -18,6 +18,12 @@ h1{
     font-weight: bold;
 }
 
+h2{
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
 /* navbarsection */
 .navbar-brand{
     
@@ -70,10 +76,42 @@ h1{
     font-size: 1rem;
 }
 
+
 .icon{
     color:#ef8172;
     padding-bottom: 2rem;
 }
 .icon:hover{
     color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+    font-family: ubuntu;
+    text-align: center;
+    color: #fff;
+    background-color: #ef8172;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.5rem;
+}
+
+#press{
+    background-color: #ef8172;
+    margin-bottom: 10%;
+    text-align: center;
+
+}
+
+.press-logo{
+    margin: 20px 20px 20px 50px;
+    width:15%;
 }
