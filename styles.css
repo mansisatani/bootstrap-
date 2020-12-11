@@ -24,9 +24,8 @@ h2{
     font-weight: bold;
 }
 
-/* navbarsection */
+/* navbarsection-section*/
 .navbar-brand{
-    
     font-family: ubuntu;
     font-size: 2.5rem;
     font-weight: bold;
@@ -44,10 +43,9 @@ h2{
     font-family: montserrat;
 }
 
-/* buttons */
+/* buttons-section */
 .download-button{
-    margin: 5% 3% 5% 0%;
-    
+    margin: 5% 3% 5% 0%;  
 }
 
 /* image */
@@ -59,7 +57,7 @@ h2{
     transform: rotate(25deg);
 }
 
-/* feature-box */
+/* feature-box-section */
 #features{
     padding: 7% 15%;
 }
@@ -85,7 +83,7 @@ h2{
     color: #ff4c68;
 }
 
-/* testimonials */
+/* testimonials-section */
 
 #testimonials{
     font-family: ubuntu;
@@ -104,6 +102,8 @@ h2{
     margin: 1.5rem;
 }
 
+/* testiomonials-press-section */
+
 #press{
     background-color: #ef8172;
     margin-bottom: 10%;
@@ -116,11 +116,9 @@ h2{
     width:15%;
 }
 
-/* pricing */
+/* pricing-section*/
 #pricing{
     text-align: center;
     margin-top:0;
-    padding-left: 100px;
-    padding-right:100px;
-    padding-bottom: 90px;
+    padding: 0px 100px 100px 100px;
 }
