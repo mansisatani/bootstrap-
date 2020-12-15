@@ -52,6 +52,7 @@ h2{
 .title-image{
     width: 60%;
     margin-left: 250px;
+    position: absolute;
 }
 .title-image:hover{
     transform: rotate(25deg);
@@ -60,6 +61,9 @@ h2{
 /* feature-box-section */
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box{
