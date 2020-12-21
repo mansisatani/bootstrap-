@@ -2,10 +2,6 @@ body{
     font-family: ubuntu;
 }
 
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-}
 
 .container-fluid{
     padding: 3% 15% 7%;
@@ -15,6 +11,15 @@ h1,h2,h3,h4,h5,h6{
     font-family: ubuntu;
 }
 
+/* sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
 
 /* navbarsection-section*/
 
@@ -61,7 +66,6 @@ h1,h2,h3,h4,h5,h6{
 /* feature-box-section */
 #features{
     padding: 7% 15%;
-    background-color: #fff;
     position: relative;
     z-index: 1;
 }
@@ -135,7 +139,6 @@ h1,h2,h3,h4,h5,h6{
 
 /* cta section */
 #cta{
-    background-color: #ff4c68;
     font-family: ubuntu;
     text-align: center;
     padding: 3% 15%;
@@ -148,7 +151,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* footer section */
 #footer{
-    background-color: #fff;
+    
     padding: 3% 15% 7%;
     text-align: center;
     color: grey;
